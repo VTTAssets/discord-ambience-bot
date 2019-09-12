@@ -1,0 +1,33 @@
+{
+  "name": "discord-ambience-bot",
+  "version": "1.0.0",
+  "description": "Locally run Discord bot that streams your local system sounds into your current voice channel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VTTAssets/discord-ambience-bot.git"
+  },
+  "keywords": [
+    "Discord",
+    "Music",
+    "Bot",
+    "Ambience",
+    "RPG"
+  ],
+  "author": "Sebastian Will",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VTTAssets/discord-ambience-bot/issues"
+  },
+  "homepage": "https://github.com/VTTAssets/discord-ambience-bot#readme",
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "dotenv": "^8.1.0",
+    "naudiodon": "^2.1.0",
+    "node-lame": "^1.2.0",
+    "node-opus": "^0.3.2"
+  }
+}
